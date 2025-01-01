@@ -10,6 +10,5 @@ runnableExamples:
 proc past*(h, m, s: int): int =
   (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)
 
-
 when isMainModule:
   echo past(0, 1, 1)
